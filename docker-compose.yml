@@ -1,0 +1,7 @@
+services:
+  tp4:
+    build: .
+    env_file: .env
+    volumes:
+      - ./shared_out:/out
+    command: python /app/main.py    

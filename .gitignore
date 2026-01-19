@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnement
+.env
+
+# Docker
+*.log
+
+# Outputs (option 1 : ne PAS versionner les données)
+shared_out/*
+!shared_out/.gitkeep
